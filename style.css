@@ -1,0 +1,138 @@
+:root {
+    --black: #191919;
+    --white: #FFF7F8;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--white);
+    color: var(--black)
+}
+
+body {
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 0;
+}
+
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+h1, h2, h3 {
+    line-height: 1.1;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    overflow-wrap: break-word;
+    max-width: 65ch;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    background-color: #f7c2f7;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+input {
+    display: block;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    text-align: center;
+    padding: 5px;
+
+}
+
+input:focus {
+    outline: none;
+    border-color: #f17bf1;
+    box-shadow: 0 0 5px rgb(241, 123, 241);
+}
+
+.bd {
+    border: 1px solid var(--black);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.input-container {
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#enter-btn {
+    width: 300px;
+    margin-top: 15px;
+    padding: 5px 0;
+}
+
+ul {
+    width: 400px;
+    padding: 0;
+    list-style: none;
+    margin: 20px auto;
+    background-color: rgb(241, 123, 241);
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--black);
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+p {
+    max-width: 70%;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+li button {
+    padding: 3px 10px;
+}

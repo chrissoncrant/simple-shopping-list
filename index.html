@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    
+    <!-- Style Sheet Reset, if needed
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
+    -->
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="images/Eyes.png?v=1.1" type="image/x-icon"> -->
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Shopping List</h1>
+    <div class="input-container">
+        <input type="text" id="task" name="task" placeholder="Enter item">
+        <button id="enter-btn">Add To List</button>
+    </div>
+    <ul id="list-container">
+        <li>
+            <p class="list-item-text">Ribs</p>
+            <div class="btn-container">
+                <button class="delete">Remove</button>
+            </div>
+        </li>
+        
+        <li>
+            <p class="list-item-text">Chicken</p>
+            <div class="btn-container">
+                <button class="delete">Remove</button>
+            </div>
+        </li>
+    </ul>  
+</body>
+</html>
