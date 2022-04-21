@@ -126,7 +126,10 @@ li:not(:last-child) {
 }
 
 p {
-    max-width: 70%;
+    width: 70%;
+    background-color: var(--white);
+    padding: 3px 5px;
+    border-radius: 5px;
 }
 
 p:hover {
