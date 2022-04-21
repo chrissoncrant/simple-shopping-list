@@ -6,10 +6,6 @@ const deleteBtn = document.querySelectorAll('.delete');
 const editBtn = document.querySelectorAll('.edit');
 const listContainer = document.getElementById('list-container');
 
-console.log(listContainer.children)
-
-console.log(listContainer)
-
 function emptyListStyle() {
     if (!listContainer.children.length) {
         const p = document.createElement('p');
